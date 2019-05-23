@@ -1,0 +1,161 @@
+<Theme>
+	<Author>Kirill Dyakov</Author>
+	<Date>05/22/2019</Date>
+	<Description>Windows 10 like battery theme</Description>
+	<Name>Win10 Dark (Charged Black)</Name>
+	<Version>1.0</Version>
+	<MaxHeight>24</MaxHeight>
+	<States>
+
+		<Default>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>10</Size>
+				<Style>Regular</Style>
+			</Font>
+			<TextColor>255,255,255</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>2,4,4,2</Padding>
+			<Background>
+				<CornerTopLeft>Background\topleft.png</CornerTopLeft>
+				<CornerTopRight>Background\topright.png</CornerTopRight>
+				<CornerBottomLeft>Background\bottomleft.png</CornerBottomLeft>
+				<CornerBottomRight>Background\bottomright.png</CornerBottomRight>
+				<LeftBorder>Background\left.png</LeftBorder>
+				<RightBorder>Background\right.png</RightBorder>
+				<TopBorder>Background\top.png</TopBorder>
+				<BottomBorder>Background\bottom.png</BottomBorder>
+				<Center>Charged\center-black.png</Center>
+				<Margin>0</Margin>
+			</Background>
+			<HoverOverlay>
+				<Center>HoverOverlay\center.png</Center>
+				<Margin>2,4,4,2</Margin>
+			</HoverOverlay>
+		</Default>
+
+		<Discharging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>10</Size>
+				<Style>Regular</Style>
+			</Font>
+			<TextColor>0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>2,4,4,2</Padding>
+			<Background>
+				<CornerTopLeft>Background\topleft.png</CornerTopLeft>
+				<CornerTopRight>Background\topright.png</CornerTopRight>
+				<CornerBottomLeft>Background\bottomleft.png</CornerBottomLeft>
+				<CornerBottomRight>Background\bottomright.png</CornerBottomRight>
+				<LeftBorder>Background\left.png</LeftBorder>
+				<RightBorder>Background\right.png</RightBorder>
+				<TopBorder>Background\top.png</TopBorder>
+				<BottomBorder>Background\bottom.png</BottomBorder>
+				<Center>Background\center.png</Center>
+				<Margin>0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>Discharging\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>HoverOverlay\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</HoverOverlay>
+		</Discharging>
+
+		<LowBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>10</Size>
+				<Style>Regular</Style>
+			</Font>
+			<TextColor>0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>2,4,4,2</Padding>
+			<Background>
+				<CornerTopLeft>Background\topleft.png</CornerTopLeft>
+				<CornerTopRight>Background\topright.png</CornerTopRight>
+				<CornerBottomLeft>Background\bottomleft.png</CornerBottomLeft>
+				<CornerBottomRight>Background\bottomright.png</CornerBottomRight>
+				<LeftBorder>Background\left.png</LeftBorder>
+				<RightBorder>Background\right.png</RightBorder>
+				<TopBorder>Background\top.png</TopBorder>
+				<BottomBorder>Background\bottom.png</BottomBorder>
+				<Center>Background\center.png</Center>
+				<Margin>0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>LowBattery\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>HoverOverlay\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</HoverOverlay>
+		</LowBattery>
+
+		<CriticalBattery>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>10</Size>
+				<Style>Regular</Style>
+			</Font>
+			<TextColor>0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>2,4,4,2</Padding>
+			<Background>
+				<CornerTopLeft>Background\topleft.png</CornerTopLeft>
+				<CornerTopRight>Background\topright.png</CornerTopRight>
+				<CornerBottomLeft>Background\bottomleft.png</CornerBottomLeft>
+				<CornerBottomRight>Background\bottomright.png</CornerBottomRight>
+				<LeftBorder>Background\left.png</LeftBorder>
+				<RightBorder>Background\right.png</RightBorder>
+				<TopBorder>Background\top.png</TopBorder>
+				<BottomBorder>Background\bottom.png</BottomBorder>
+				<Center>Background\center.png</Center>
+				<Margin>0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>CriticalBattery\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>HoverOverlay\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</HoverOverlay>
+		</CriticalBattery>
+
+		<Charging>
+			<Font>
+				<Name>Segoe UI</Name>
+				<Size>10</Size>
+				<Style>Regular</Style>
+			</Font>
+			<TextColor>0,0,0</TextColor>
+			<TextShadow>False</TextShadow>
+			<Padding>2,4,4,2</Padding>
+			<Background>
+				<CornerTopLeft>Background\topleft.png</CornerTopLeft>
+				<CornerTopRight>Background\topright.png</CornerTopRight>
+				<CornerBottomLeft>Background\bottomleft.png</CornerBottomLeft>
+				<CornerBottomRight>Background\bottomright.png</CornerBottomRight>
+				<LeftBorder>Background\left.png</LeftBorder>
+				<RightBorder>Background\right.png</RightBorder>
+				<TopBorder>Background\top.png</TopBorder>
+				<BottomBorder>Background\bottom.png</BottomBorder>
+				<Center>Background\center.png</Center>
+				<Margin>0</Margin>
+			</Background>
+			<ProgressBar>
+				<Center>Charging\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</ProgressBar>
+			<HoverOverlay>
+				<Center>HoverOverlay\center.png</Center>
+				<Margin>2,2,4,2</Margin>
+			</HoverOverlay>
+		</Charging>
+	</States>
+</Theme>
